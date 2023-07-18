@@ -1,0 +1,16 @@
+figcaption {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+main img {
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    width: 250px;
+}
+
+main section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

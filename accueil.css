@@ -1,0 +1,32 @@
+#accueil {
+    color: rgb(14, 29, 243);
+    text-shadow: 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Nothing You Could Do', cursive, sans-serif;
+}
+
+figcaption {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+main img {
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    width: 350px;
+}
+
+main section {
+    display: flex;
+     flex-wrap: wrap; 
+    justify-content: center;
+}
+
+main figure:hover {
+    transform: scale(1.1);
+}

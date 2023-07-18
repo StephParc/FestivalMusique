@@ -1,0 +1,53 @@
+p {
+    text-align: justify;
+}
+
+
+#photo-artiste {
+    border-radius: 10px;
+    width: 90%;
+}
+
+figcaption img {
+    width: 15%;
+}
+
+figcaption legend {
+    width: 85%;
+    /* font-size: 0.5rem; */
+}
+
+figcaption {
+    text-align: justify;
+}
+
+
+main img {
+    box-shadow: 2px 2px 2px black;
+}
+
+.ligne {
+    display: inline-flex;
+}
+ul:last-child{
+    list-style: none;
+}
+
+/* @media screen and (max-width: 768px) {
+    #photo-artiste {
+        width: 400px;
+            }
+   
+} */
+
+@media screen and (min-width: 768px) {
+    #dispo-artiste {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 30px;
+        padding: 20px;
+    }
+  
+}

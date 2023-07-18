@@ -1,0 +1,33 @@
+#partenaires {
+    color: rgb(14, 29, 243);
+    text-shadow: 10px;
+
+}
+
+main img {
+    box-shadow: 2px 2px 2px black;
+    border-radius: 10px;
+}
+
+.partenaires {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 30px 0;
+    padding: 20px;
+    gap: 20px;
+}
+.partenaire-humour{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+main {
+    margin-bottom: 30px;
+}
+
+h3 {
+    margin-top: 20px;
+}

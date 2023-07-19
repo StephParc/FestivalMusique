@@ -1,6 +1,10 @@
-const teteMenu=document.getElementById("a-propos");
-const menu=document.getElementsByTagName("table");
-teteMenu.addEventListener("hover")
-{
-    menu.display=visible;
-}
+const menuAPropos = document.querySelector(".menuAPropos");
+const menuDeroulant = document.querySelector('.menuDeroulant');
+
+menuDeroulant.addEventListener("mouseover", function () {
+  menuAPropos.style.display = "block";
+});
+
+menuDeroulant.addEventListener("mouseout", function () {
+  menuAPropos.style.display = "none";
+});

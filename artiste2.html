@@ -26,19 +26,47 @@
             <h2>le seul festival où tous les artistes se produiront un jour</h2>
         </section>
     </header>
+
     <main>
-        <nav>
-            <nav>
-                <a href="./accueil.html" id="accueil">Accueil</a>
-                <a href="./programmation" id="programmation">Programmation</a>
-                <a href="./ticket.html" id="tickets">Tickets</a>
-                <a href="./boutique.html" id="boutique">Boutique</a>
-                <a href="./infos.html" id="infos">Infos</a>
-                <a href="./a-propos.html" id="a-propos">A propos</a>
-                <a href="/partenaires.html" id="partenaires">Partenaires</a>
-                <a href="./connexion.html" id="connexion">Connexion</a>
-            </nav>
+        <nav class="menuPrincipal">
+            <a href="./accueil.html" id="accueil">Accueil</a>
+            <a href="./Programmation.html" id="programmation">Programmation</a>
+            <a href="./ticket.html" id="tickets">Tickets</a>
+            <a href="./boutique.html" id="boutique">Boutique</a>
+            <a href="./info.html" id="infos">Infos</a>
+            <section class="menuDeroulant"><button class="bouton"><a href="./a-propos.html" id="a-propos">A propos</a>
+                </button>
+                <nav class="menuAPropos">
+                    <a href="./revenus.html">Ils sont (re)venus</a>
+                    <a href="./prochainement.html">Prochainement</a>
+                    <a href="#">Photos/Vidéos</a>
+                    <a href="#">Cosplay</a>
+                </nav>
+            </section>
+            <a href="./partenaires.html" id="partenaires">Partenaires</a>
+            <a href="./connexion.html" id="connexion">Connexion</a>
         </nav>
+
+        <button class="listeArtistes">Les artistes</button>
+
+        <aside>
+            <a href="./artiste1.html">Le Grand Jojo</a>
+            <a href="./artiste2.html">The Notorious BIG</a>
+            <a href="./artiste3.html">Alain Bashung</a>
+            <a href="./artiste4.html">Bob Marley</a>
+            <a href="./artiste5.html">Freddie Mercury</a>
+            <a href="./artiste6.html">Amy Winehouse</a>
+            <a href="./artiste7.html">Johnny Hallyday</a>
+            <a href="./artiste8.html">Moonbin</a>
+            <a href="./artiste9.html">Mac Miller</a>
+            <a href="./artiste10.html">Mickael Jackson</a>
+            <a href="./artiste11.html">Carlos</a>
+            <a href="./artiste12.html">2Pac</a>
+            <a href="./artiste13.html">Lemmy</a>
+            <a href="./artiste14.html">Tina Turner</a>
+            <a href="./artiste15.html">AVICII</a>
+        </aside>
+
         <h3>Notorious BIG</h3>
         <section id="dispo-artiste">
             <section>
@@ -58,9 +86,7 @@
                     <li>1999: Dead wrong</li>
                 </ul>
                 <h4>Avis du festival</h4>
-                <p>1994: l'album "Ready to die" est certifié quadruple disque de platine</p>
-                <p>1994: le single "Big Poppa" est disque de platine</p>
-                <p>1995: musicien de l'année aux Bilboard Awards</p>
+                <p></p>
             </section>
             <section>
                 <h4>En deux mots</h4>
@@ -74,7 +100,10 @@
                     reprises.</p>
                 <p>Il est assassiné à la sortie d'une cérémonie à laquelle il assistait.</p>
                 <h4>Ses récompenses</h4>
-                <p></p>
+                <p>1994: l'album "Ready to die" est certifié quadruple disque de platine</p>
+                <p>1994: le single "Big Poppa" est disque de platine</p>
+                <p>1995: musicien de l'année aux Bilboard Awards</p>
+
                 <h4>Notorious Big c'était</h4>
                 <audio controls src="#"></audio>
                 <h4>Pour en savoir plus</h4>
@@ -89,7 +118,6 @@
     </main>
 
     <footer>
-
         <div>
             <span>Réseaux sociaux </span>
             <a href="https://www.facebook.com/groups/7263790836969977/files/files" target="_blank"><img
@@ -102,8 +130,9 @@
         </div>
         <div><a href="#">Contact</a></div>
         <div><a href="#">Conditions générales</a></div>
-
     </footer>
+
+    <script src="./artiste.js"></script>
 
 </body>
 

@@ -1,8 +1,8 @@
-button.listeArtistes{
+button.listeArtistes {
     display: block;
     position: sticky;
-    top:40px;
-    right:0px;
+    top: 40px;
+    right: 0px;
     background-color: #c2ddf7;
     text-align: center;
     width: 134px;
@@ -10,24 +10,25 @@ button.listeArtistes{
     z-index: 2;
 }
 
-aside{
+aside {
     display: none;
     position: sticky;
-    top:80px;
+    top: 80px;
     z-index: 1;
     width: 130px;
     border: 2px solid black;
 }
 
-aside a{
+aside a {
     display: flex;
     flex-direction: column;
     background-color: #80b7e9;
-       /* width: 160px; */
+    /* width: 160px; */
 }
-aside a:hover{
+
+aside a:hover {
     background-color: #3e668b;
-   }
+}
 
 p {
     text-align: justify;
@@ -52,24 +53,17 @@ figcaption {
     text-align: justify;
 }
 
-
 main img {
     box-shadow: 2px 2px 2px black;
 }
 
-.ligne {
-    display: inline-flex;
-}
-ul:last-child{
+ul:last-child {
     list-style: none;
 }
 
-/* @media screen and (max-width: 768px) {
-    #photo-artiste {
-        width: 400px;
-            }
-   
-} */
+audio {
+    margin: 20px;
+}
 
 @media screen and (min-width: 768px) {
     #dispo-artiste {
@@ -80,5 +74,4 @@ ul:last-child{
         gap: 30px;
         padding: 20px;
     }
-  
 }

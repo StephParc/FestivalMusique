@@ -5,8 +5,9 @@
 
 p {
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: 'Nothing You Could Do', cursive, sans-serif;
+    margin: 20px;
 }
 
 figcaption {

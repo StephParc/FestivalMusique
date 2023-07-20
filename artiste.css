@@ -30,6 +30,10 @@ aside a:hover {
     background-color: #3e668b;
 }
 
+main h3{
+    margin-top: 0;
+}
+
 p {
     text-align: justify;
 }

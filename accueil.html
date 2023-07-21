@@ -24,15 +24,24 @@
             <h2>le seul festival où tous les artistes se produiront un jour</h2>
         </section>
     </header>
+
     <main>
-        <nav>
+        <nav class="menuPrincipal">
             <a href="./accueil.html" id="accueil">Accueil</a>
-            <a href="./programmation" id="programmation">Programmation</a>
+            <a href="./Programmation.html" id="programmation">Programmation</a>
             <a href="./ticket.html" id="tickets">Tickets</a>
             <a href="./boutique.html" id="boutique">Boutique</a>
-            <a href="./infos.html" id="infos">Infos</a>
-            <a href="./a-propos.html" id="a-propos">A propos</a>
-            <a href="/partenaires.html" id="partenaires">Partenaires</a>
+            <a href="./info.html" id="infos">Infos</a>
+            <section class="menuDeroulant"><button class="bouton"><a href="./a-propos.html" id="a-propos">A propos</a>
+                </button>
+                <nav class="menuAPropos">
+                    <a href="./revenus.html">Ils sont (re)venus</a>
+                    <a href="./prochainement.html">Prochainement</a>
+                    <a href="#">Photos/Vidéos</a>
+                    <a href="#">Cosplay</a>
+                </nav>
+            </section>
+            <a href="./partenaires.html" id="partenaires">Partenaires</a>
             <a href="./connexion.html" id="connexion">Connexion</a>
         </nav>
         <p>Festival de l’Au-dela revient pour sa 13ème édition.</p>
@@ -43,15 +52,15 @@
 
         <section>
             <figure>
-                <figcaption>PROGRAMMATION</figcaption><a href="./programmation.html"><img
+                <figcaption>PROGRAMMATION</figcaption><a href="./Programmation.html"><img
                         src="./images/programmation.jpg" alt="photo artiste"></a>
             </figure>
             <figure>
-                <figcaption>BILLETERIE</figcaption><a href="./tickets.html"><img src="./images/billeterie.jpg"
+                <figcaption>BILLETERIE</figcaption><a href="./ticket.html"><img src="./images/billeterie.jpg"
                         alt="image ticket"></a>
             </figure>
             <figure>
-                <figcaption>INFOS PRATIQUES</figcaption><a href="./infos.html"><img src="./images/infos.jpg"
+                <figcaption>INFOS PRATIQUES</figcaption><a href="./info.html"><img src="./images/infos.jpg"
                         alt="image infos"></a>
             </figure>
             <figure>
@@ -63,7 +72,7 @@
                         alt="image boutique"></a>
             </figure>
             <figure>
-                <figcaption>PARTENAIRES</figcaption><a href="./partenaires"><img src="./images/partenaires.jpg"
+                <figcaption>PARTENAIRES</figcaption><a href="./partenaires.html"><img src="./images/partenaires.jpg"
                         alt="image mains ensemble"></a>
             </figure>
         </section>

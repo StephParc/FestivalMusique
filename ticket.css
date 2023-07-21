@@ -1,3 +1,8 @@
+#tickets {
+    color: rgb(14, 29, 243);
+    text-shadow: 10px;
+}
+
 main{
 background: linear-gradient(#4f5666, #a0a5b1);
 margin: auto;
@@ -54,4 +59,17 @@ aside h5{
 }
 main section figure{
     width: 40%;
+}
+
+main section:nth-child(5){
+    margin: 25px;
+    padding: 25px;
+    border-radius: 25px;
+}
+#bouton{
+    background-color: rgb(178, 206, 206);
+    border-radius: 25px; color:rgb(0, 0, 0);
+    border: transparent ;
+    padding: 10px;
+
 }

@@ -1,0 +1,28 @@
+#panier {
+background: linear-gradient(#4f5666, #a0a5b1);
+margin: auto;
+padding-top: 100px;
+padding-bottom: 100px;
+border-radius: 25px;
+width: 80%;
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+
+
+}
+#panier img{
+    width: 35%;
+    height: auto;
+    align-items: center;   
+}
+
+p{
+    text-decoration:underline;
+    transform: scale(1.1);
+}
+
+a:hover{
+    background-color: gray
+}

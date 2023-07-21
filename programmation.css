@@ -1,0 +1,130 @@
+/* telecharger et utiliser en titlejour */
+@font-face {
+    font-family: "audela";
+    src: url(./font/);
+}
+
+#programmation {
+    color: rgb(14, 29, 243);
+    text-shadow: 10px;
+}
+
+.pass3{
+    background-color: #ECC50B;
+    margin: 75px auto;
+    padding: 25px 25px;
+    border-radius: 25px; 
+    width: 80%;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+/* flexbox jour artiste */
+.jour1, .jour2, .jour3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.500);
+    /* background-color: hsla(256, 58%, 38%, 0.486); */
+    border-radius: 25px;
+    width: 100%;
+}
+.jour1{
+    /* background-color: hsla(256, 58%, 38%, 0.486); */
+    background-color: rgb(71, 41, 153);
+}
+.jour2{
+    background-color: rgb(241, 114, 30);
+}
+.jour3{
+    background-color: rgb(168, 9, 104);
+    margin-bottom: 25px;
+}
+
+
+.title_jour{
+    padding: 25px;
+    color: white;
+    border-radius: 25px;
+    margin-top: 50px;
+    box-shadow: 15px 15px 15px #808080;
+    width: 20%;
+    text-decoration: underline;
+    background-image: url(./images/beauciel.jpg);
+}
+/* fin flexbox jour */
+
+/* css des bulle informative */
+.bulle
+{
+    text-decoration:none;
+    position:relative; 
+}
+.bulle span
+{
+    display:none;
+ 
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    width: 250px;
+    color:black;
+    background:white;
+}
+.bulle:hover span
+{
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    border:1px solid black;
+    margin-top:12px;
+    margin-left:32px;
+    padding:8px;
+}
+/* FIN CSS bulle Informative */
+
+/* css image */
+.img {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 3;
+    transition: 0.5s;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.406);
+    position: relative;
+} 
+img:hover {
+    transform: scale(1.1);
+}
+header img:hover,footer img:hover {
+    transform: none
+}
+
+.artiste{
+    position: relative;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+.infobulle{
+    z-index: 2;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.inform{
+    width: 25px;
+}
+.card{
+    width: 18%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/* fin css image */
+
